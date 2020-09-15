@@ -9,9 +9,9 @@ class list_arr:
 
     def searching(self,f):
         if f in self.l:
-            print("found!!")
+            print("search is in the list")
         else:
-            print("not found")
+            print("try something else...")
 
     def sorting(self):
         self.l.sort()
